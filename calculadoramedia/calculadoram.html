@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <title> Calculadora de média</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Calculadora de média
+    </h1>
+    <p class="page-subtitle">
+      Descubra qual a sua média de nota em todas as provas!
+    </p>
+    <div class="calc">
+      <div id="notas">
+        <ul>
+          <li> 1º Nota <input id="1nt" type="number"></li>
+          <li> 2º Nota <input id="2nt" type="number"></li>
+          <li> 3º Nota <input id="3nt" type="number"></li>
+          <li> 4 ºNota <input id="4nt" type="number"></li>
+          <li><input onClick="calcularMedia()" class="button" type="button" value="Calcular"></li>
+        </ul>
+      </div>
+      <p class="result">Resultado</p>
+      <div id="resposta">
+      </div>
+      <img src="https://images-na.ssl-images-amazon.com/images/I/31kbhoZT7EL.png">
+    </div>
+</body>
+
+</html>

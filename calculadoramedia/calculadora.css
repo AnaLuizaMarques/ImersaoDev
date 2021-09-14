@@ -1,0 +1,56 @@
+body {
+    font-family: Verdana,Helvetica;
+    min-height: 40px;
+    background-color: #E4F4F4;
+    background-size:50vh;
+    background-position: right center;
+    background-repeat: no-repeat;
+  }
+  
+  .calc {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color:#50E3E5;
+    margin: 0 0 5px;
+    font-size: 50px;
+  }
+  
+  .page-subtitle {
+    color:#A7E2E3;
+    margin-top: 15px;
+    font-size: 30px;
+  }
+  
+  ul, li {
+   padding-bottom: 10px;
+   list-style: none;
+   text-align: left center;
+   padding: 10px;
+   height: 10px;
+   margin-top: 2px;
+   color: #50E3E5;
+  }
+  
+  .button {
+    background-color: #A7E2E3;
+    color: #191970;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 4px;
+    border: 2px solid #50E3E5;
+    transition-duration: 0.2s;
+  }
+  
+  .result {
+    color: #50E3E5;
+  }
+  
