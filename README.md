@@ -3,5 +3,7 @@
 This is a Repository with all projects that I made with ImersaoDev - Alura course.
 
 ---
-- [Media calculator using CSS, JS and HTML.](calculadoramedia)
-- [Temperature Converter using CSS, JS and HTML.](conversordetemperatura)
+1. [Media calculator using CSS, JS and HTML.](calculadoramedia)
+2. [Temperature Converter using CSS, JS and HTML.](conversordetemperatura)
+3. [Converter km to light-years using CSS, JS and HTML.](conversoranosluz)
+4. [Currency converter using CSS, JS and HTML.](conversordemoedas)
