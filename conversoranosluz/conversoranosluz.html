@@ -1,0 +1,36 @@
+<html>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Vamos viajar pelo Espaço Sideral?
+    </h1>
+    <p class="page-subtitle">
+      Converta quilômetros para anos luz e verifique o tempo que necessário para ir do Planeta Terra para uma estrela!
+    </p>
+    <div class=wrapper-converters>
+      <div class="wrapper-calculadora">
+        <input type="number" id="valor" placeholder="Quilometros" />
+        <button type="submit" onclick="converterAnosLuz()">Calcular para Anos-Luz</button>
+        <div id="resposta">
+        </div>
+      </div>
+      <div>
+        <h3> Tempo necessário para ir do Planeta Terra à
+          <select onchange="selecao()" class="select-estrelas" id="estrelas">
+            <option value="nada">Selecione uma opção</option>
+            <option value="sirius">Sirius</option>
+            <option value="rigel">Rigel</option>
+            <option value="canisMajoris">Canis Majoris</option>
+            <option value="antares">Antares</option>
+            <option value="canopus">Canopus</option>
+          </select>
+          <div id="resposta2" />
+        </h3>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
