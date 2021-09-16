@@ -1,0 +1,89 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA08444_00/2/i_f9db3c9f5f5941e8029c6b8f71871aea528a9870798a01bf91cda8d0b232ede7/i/pic0.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-family: "Times New Roman", serif;
+    }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: red;
+    font-size: 45px;
+    margin: 0 0 5px;
+    background-image: linear-gradient(
+      to left,
+      orange,
+      white
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 300px;
+  }
+  
+  .jogosUm img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  .jogosUm {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+  }
+  
+  .jogosDois img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .jogosDois {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .jogosTres img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  .jogosTres {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .todosJogos {
+    display: flex;
+    flex-direction: column;
+    margin: 4px 4px;
+    background-image: linear-gradient(
+      to right,
+      orange,
+      white
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+  }
